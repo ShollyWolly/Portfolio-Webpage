@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ger">
+<head>
+    <meta charset="UTF-8">
+    <title>Alexanders Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Bilder/Regression-Logo-trans.png"/>
+</head>
+<body>
+    <header class = "Header">
+        <div class="Main">
+            <h1>Alexander Hilberer</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="Main">
+            <a href="index.html">Über Mich</a>
+            <a href="Projekte.html">Projekte</a>
+            <a href="Lebenslauf.html">Lebenslauf</a>
+            <a href="Kontakt.html" id="current">Kontakt</a>
+            <a href="Checkliste.html">Checkliste</a>             
+        </div>
+    </nav>
+
+    <section class="Main">
+        <h2>Kontaktdaten</h2>
+        <table class="Tabelle">          
+            <tr>
+                <td>Name: </td>
+                <td>Alexander Hilberer</td>
+            </tr>
+
+            <tr>
+                <td>Wohnort: </td>
+                <td>66679 Losheim am See</td>
+            </tr>
+
+            <tr>
+                <td>Straße: </td>
+                <td>Nelkenstraße 20</td>
+            </tr>
+
+            <tr>
+                <td>Mobiltelefon: </td>
+                <td>01791318111</td>
+            </tr>
+
+            <tr>
+                <td>Festnetz: </td>
+                <td>06872 9941182</td>
+            </tr>
+
+            <tr>
+                <td>E-Mail: </td>
+                <td><a href="mailto: hilberea@hochschule-trier.de" id="Textformatting">hilberea@hochschule-trier.de </a> </td>
+            </tr>            
+        </table>
+
+        <h2>Alternativ können Sie mich auch hier direkt kontaktieren.</h2>
+        <div id="ErrorMessage"></div>
+
+        <form class="myForm" action="Python.py" method="POST">
+            <label><strong>Name</strong></label>
+            <input type="text" name="name" placeholder="Bitte geben Sie ihren Namen ein." id="name">
+                
+            <label><strong>E-Mail</strong></label>
+            <input type="email" name="email" placeholder="Bitte geben Sie ihre E-mail an." id="email">
+            
+            <label><strong>Nachricht</strong></label>
+            <textarea name="Message" placeholder="Bitte geben Sie hier Ihre Nachricht ein." id="msg"></textarea>
+
+            <input type="submit" value="Senden" >
+            
+        </form>
+    </section>
+
+    <div class="icon-bar"> 
+        <a href="https://github.com/ShollyWolly" class="github" target="_blank"><i class="fa fa-github"></i></a> 
+        <a href="https://www.youtube.com/channel/UCbeaRFs7cjvwH7ukgxpenuQ/featured?view_as=subscriber" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
+        <a href="https://www.linkedin.com/in/alexander-hilberer-166413194/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.reddit.com/user/ShollyWolly" class="reddit" target="_blank"><i class="fa fa-reddit"></i></a>
+        <a href="https://stackoverflow.com/users/11508616/sholly" class="stack-overflow" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+    </div>
+
+    <footer class="Footer">
+        <p>Copyright &copy; 2020 Alexander Hilberer</p>
+    </footer>
+
+    <script src="Scripts/KontaktScriptOOP.js"></script>
+
+</body>
+</html>
